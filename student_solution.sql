@@ -1,5 +1,7 @@
-alter table student
-add Email varchar(30);
-alter table student
-add PhoneNumber int(10);
-desc student;
+ALTER TABLE Student
+ADD Email VARCHAR(30);
+
+ALTER TABLE Student
+ADD PhoneNumber INT;
+
+DESC Student;
